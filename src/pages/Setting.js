@@ -19,7 +19,7 @@ export const  Setting = () => {
         axios.get(`/clusters`)
         .then(results => setClusters(results.data))
         .catch(error=>console.log(error))
-     })
+     }, [])
 
      const deleteCluster = (cluster) => {
          setClusters(clusters.filter(item=>item.name !== cluster.name))   

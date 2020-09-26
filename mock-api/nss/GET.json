@@ -1,0 +1,5 @@
+[
+    {"label": "all", "value":"all"},
+    {"label": "default", "value":"default"},
+    {"label": "kube-system", "value":"kube-system"}
+]

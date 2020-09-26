@@ -1,10 +1,11 @@
 import React from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import {Pods} from './pagess/Pods';
-import {Setting} from './pagess/Setting';
-import {Deployment} from './pagess/Deployment';
+import {Pods} from './pages/Pods';
+import {Setting} from './pages/Setting';
+import {Deployment} from './pages/Deployment';
 import {Layout} from './components/Layout';
 import {NavigationBar} from './components/NavigationBar';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
